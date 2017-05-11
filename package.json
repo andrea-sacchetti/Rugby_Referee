@@ -1,0 +1,52 @@
+{
+    "author": "andrea.sacchetti@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "rugby-referee",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Rugby Referee Watch App",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "half",
+            "card",
+            "injury",
+            "try",
+            "conv",
+            "pen",
+            "drop",
+            "cards",
+            "report",
+            "teams",
+            "subs"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/RugbyRef25x25.png",
+                    "name": "APP_ICON",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "png-trans"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "333c6293-0fd9-4afb-9e72-3eb0e74d3e6d",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.1.0"
+}
